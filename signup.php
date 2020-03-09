@@ -21,7 +21,7 @@ include_once $path."langs/set_lang.php";
 ?>
 <html dir="<? echo lang('html_dir'); ?>">
 <head>
-    <title><? echo lang('create_new_account'); ?> | Wallstant</title>
+    <title><? echo lang('create_new_account'); ?> | Vice Social</title>
     <meta charset="UTF-8">
     <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
     <meta name="keywords" content="signup,social network,social media,Wallstant,meet,free platform">
@@ -32,7 +32,7 @@ include_once $path."langs/set_lang.php";
     <body class="login_signup_body">
     <!--============[ Nav bar ]============-->
     <div class="login_signup_navbar">
-        <a href="index" class="login_signup_navbarLinks">Wallstant</a>
+        <a href="index" class="login_signup_navbarLinks"><img src="imgs/main_icons/social.png" alt="Vice Social" style="width: 200px;" /><a>
         <a href="#" class="login_signup_navbarLinks"><? echo lang('help'); ?></a>
         <a href="#" class="login_signup_navbarLinks"><? echo lang('terms'); ?></a>
         <a href="#" class="login_signup_navbarLinks"><? echo lang('privacyPolicy'); ?></a>

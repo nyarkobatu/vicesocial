@@ -230,7 +230,7 @@ if (!password_verify($remeveA_current_pass_var,$_SESSION['Password'])) {
 ?>
 <html dir="<?php echo lang('html_dir'); ?>">
 <head>
-    <title>Account settings | Wallstant</title>
+    <title>Hesap Ayarları | Vice Social</title>
     <meta charset="UTF-8">
     <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
     <meta name="keywords" content="settings,social network,social media,Wallstant,meet,free platform">

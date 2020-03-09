@@ -18,7 +18,7 @@ if (is_dir("imgs/")) {
 ?>
 <html dir="<?php echo lang('html_dir'); ?>">
 <head>
-    <title>Home | Wallstant</title>
+    <title>Ana Sayfa | Vice Social</title>
     <meta charset="UTF-8">
     <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
     <meta name="keywords" content="social network,social media,Wallstant,meet,free platform">

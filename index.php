@@ -21,7 +21,7 @@ include_once $path."langs/set_lang.php";
 ?>
 <html dir="<? echo lang('html_dir'); ?>">
 <head>
-    <title><? echo lang('welcome'); ?> | Wallstant</title>
+    <title><? echo lang('welcome'); ?> | Vice Social</title>
     <meta charset="UTF-8">
     <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
     <meta name="keywords" content="homepage,main,login,social network,social media,Wallstant,meet,free platform">
@@ -55,7 +55,7 @@ include_once $path."langs/set_lang.php";
                     <p id="login_wait" style="margin: 0px;"></p>
                 </div>
                 <div style="width: 100%;text-align: center;">
-                    <img src="http://localhost/wallstant/imgs/main_icons/vice_logo.png" alt="Wallstant" style="width: 300px;" />
+                    <img src="http://localhost/wallstant/imgs/main_icons/vice_logo.png" alt="Vice Logo" style="width: 300px;" />
                 </div>
             </div>
         </div>
