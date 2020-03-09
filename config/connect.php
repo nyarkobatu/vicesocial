@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "wallstant";
+$dbname = "vicesocial";
 
 try 
     {
