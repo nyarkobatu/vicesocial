@@ -75,7 +75,7 @@ if ($uCheckSessionCount == 0) {
             </ul>
             <ul class="<?php echo lang('ul_navbar_nav2'); ?>">
                 <li>
-                <input id="searchq" dir="auto" class="navbar_search" type="search" name="navbar_search" placeholder="<?php echo lang('navbar_serchBox_ph'); ?>" style="text-align: <?php echo lang('textAlign'); ?>;" />
+                <input id="searchq" dir="auto" class="navbar_search" type="search" name="navbar_search" placeholder="<?php echo lang('navbar_serchBox_ph'); ?>" style="background-color: red; text-align: <?php echo lang('textAlign'); ?>;" />
                 </li>
                  <div class="navbar_fetchBox" id="search_r">
                  <div  id="getSearchResult" class="scrollbar" style="overflow: auto;max-height: 450px;"></div>
