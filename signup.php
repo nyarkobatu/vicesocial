@@ -23,9 +23,9 @@ include_once $path."langs/set_lang.php";
 <head>
     <title><? echo lang('create_new_account'); ?> | Vice Social</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
-    <meta name="keywords" content="signup,social network,social media,Wallstant,meet,free platform">
-    <meta name="author" content="Munaf Aqeel Mahdi">
+    <meta name="description" content="Vice Social, GTA San Andreas oyunun çok oyunculu SAMP modülünde hizmet veren Vice Roleplay isimli roleplay sunucusunun oyun içi sosyal medya platformudur. Tüm karakterler hayal ürünüdür.">
+    <meta name="keywords" content="vice city,vice roleplay,samp,Vice Social,sosyal,roleplay,gta,gta san andreas">
+    <meta name="author" content="Batuhan 'Nyarko' Kaçar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "includes/head_imports_main.php";?>
 </head>
@@ -58,14 +58,14 @@ include_once $path."langs/set_lang.php";
             </select>
             </p>
             <p style="font-size: 11px;color: #5d5d5d;margin: 8px 0px; ">
-                <? echo lang('by_clicking_signup_str'); ?> <a href="terms"><? echo lang('terms'); ?></a>, <a href="privacy"><? echo lang('privacyPolicy'); ?></a> <? echo lang('and'); ?> <a href="cookie"><? echo lang('cookie_use'); ?></a>.</p>
+                <? echo lang('by_clicking_signup_str'); ?> <a href="terms"><? echo lang('terms'); ?></a>, <a href="privacy"><? echo lang('privacyPolicy'); ?></a> <? echo lang('and'); ?> <a href="cookie"><? echo lang('cookie_use'); ?></a> <? echo lang('usage'); ?>.</p>
             <button type="submit" class="login_signup_btn2" id="signupFunCode"><? echo lang('create_account'); ?></button>
             <p id="login_wait" style="margin: 0px;"></p>
         </div>
         <!--============[ login sec ]============-->
         <div style="background: #fff; border-radius: 3px; width: 420px; padding: 15px; margin: 15px;color: #7b7b7b;" align="center">
             <? echo lang('already_have_an_account'); ?> <a href="login"><? echo lang('login_now'); ?></a>.<hr style="margin: 8px;">
-                <a href="?lang=english">English</a> &bull; <a href="?lang=العربية">العربية</a> &bull; <a href="?lang=turkish">Türkçe</a>
+                <a href="?lang=english">English</a> &bull; <a href="?lang=turkish">Türkçe</a>
         </div>
     </div>
 

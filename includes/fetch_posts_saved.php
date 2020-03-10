@@ -50,7 +50,7 @@ if (strlen($post_content) > 150) {
 }else{
 	echo $post_content;
 }
-?> <br/><a href="<?php echo './post?pid='.$saved_post_id; ?>" style="color: #46a0ec;">Continue reading</a>
+?> <br/><a href="<?php echo './post?pid='.$saved_post_id; ?>" style="color: #46a0ec;">Daha fazla göster</a>
 </div></div>
 <div id="deleteSavedMsg_<?php echo $saved_id; ?>"></div>
 </td>

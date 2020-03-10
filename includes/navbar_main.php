@@ -32,7 +32,7 @@ if ($uCheckSessionCount == 0) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo $dircheckPath; ?>home"><img src="http://localhost/vicesocial/imgs/main_icons/social.png" alt="ViceSocial" style="width: 150px;" /></a>
+            <a class="navbar-brand" style="margin-top: -6.5px" href="<?php echo $dircheckPath; ?>home"><img src="http://localhost/vicesocial/imgs/main_icons/social.png" alt="ViceSocial" style="width: 150px;" /></a>
 			</div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="<?php echo lang('ul_navbar_nav1'); ?>">
@@ -75,7 +75,7 @@ if ($uCheckSessionCount == 0) {
             </ul>
             <ul class="<?php echo lang('ul_navbar_nav2'); ?>">
                 <li>
-                <input id="searchq" dir="auto" class="navbar_search" type="search" name="navbar_search" placeholder="<?php echo lang('navbar_serchBox_ph'); ?>" style="background-color: red; text-align: <?php echo lang('textAlign'); ?>;" />
+                <input id="searchq" dir="auto" class="navbar_search" type="search" name="navbar_search" placeholder="<?php echo lang('navbar_serchBox_ph'); ?>" style="background-color: #1F73E1; text-align: <?php echo lang('textAlign'); ?>;" />
                 </li>
                  <div class="navbar_fetchBox" id="search_r">
                  <div  id="getSearchResult" class="scrollbar" style="overflow: auto;max-height: 450px;"></div>

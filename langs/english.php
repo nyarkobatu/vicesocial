@@ -153,7 +153,7 @@ function lang($txt){
     'comm_edit' => 'Edit comment',
     'comm_delete' => 'Delete comment',
     'comm_report' => 'Report comment',
-    'recently_starts_from' => 'Recently starts from :',
+    'recently_starts_from' => 'Recently stars from :',
     'load_more' => 'Load more',
     'postSaved' => 'Post Saved',
     'postSavedBefore' => 'You saved this post before!',
@@ -302,6 +302,7 @@ function lang($txt){
     'by_clicking_signup_str' => 'By clicking Create account, you agree to our',
     'and' => 'and',
     'cookie_use' => 'Cookie use',
+    'usage' => '.',
     'already_have_an_account' => 'Already have an account',
     'creating_your_account' => 'Creating your account',
     'done' => 'done',
@@ -327,6 +328,7 @@ function lang($txt){
     'friends' => 'Friedns',
     'requests' => 'Requests',
     'continue_reading' => 'Continue reading',
+    'show_all_stars' => 'Show All Stars'
 
 
    // ==========================================

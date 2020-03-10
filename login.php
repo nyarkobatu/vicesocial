@@ -23,9 +23,9 @@ include_once $path."langs/set_lang.php";
 <head>
     <title><? echo lang('login'); ?> | Vice Social</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
-    <meta name="keywords" content="login,social network,social media,Wallstant,meet,free platform">
-    <meta name="author" content="Munaf Aqeel Mahdi">
+    <meta name="description" content="Vice Social, GTA San Andreas oyunun çok oyunculu SAMP modülünde hizmet veren Vice Roleplay isimli roleplay sunucusunun oyun içi sosyal medya platformudur. Tüm karakterler hayal ürünüdür.">
+    <meta name="keywords" content="vice city,vice roleplay,samp,Vice Social,sosyal,roleplay,gta,gta san andreas">
+    <meta name="author" content="Batuhan 'Nyarko' Kaçar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "includes/head_imports_main.php";?>
 </head>
@@ -53,7 +53,7 @@ include_once $path."langs/set_lang.php";
             </div>
             <div style="background: #fff; border-radius: 3px; max-width: 420px; padding: 15px; margin:auto;margin-top: 15px;color: #7b7b7b;" align="center">
                 <? echo lang('dont_have_an_account'); ?> <a href="signup"><? echo lang('signup'); ?></a> <? echo lang('for_free'); ?>.<hr style="margin: 8px;">
-                <a href="?lang=english">English</a> &bull; <a href="?lang=العربية">العربية</a> &bull; <a href="?lang=turkish">Türkçe</a>
+                <a href="?lang=english">English</a> &bull; <a href="?lang=turkish">Türkçe</a>
             </div>
         </div>
 

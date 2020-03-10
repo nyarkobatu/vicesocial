@@ -20,9 +20,9 @@ if (is_dir("imgs/")) {
 <head>
     <title>Ana Sayfa | Vice Social</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
-    <meta name="keywords" content="social network,social media,Wallstant,meet,free platform">
-    <meta name="author" content="Munaf Aqeel Mahdi">
+    <meta name="description" content="Vice Social, GTA San Andreas oyunun çok oyunculu SAMP modülünde hizmet veren Vice Roleplay isimli roleplay sunucusunun oyun içi sosyal medya platformudur. Tüm karakterler hayal ürünüdür.">
+    <meta name="keywords" content="vice city,vice roleplay,samp,Vice Social,sosyal,roleplay,gta,gta san andreas">
+    <meta name="author" content="Batuhan 'Nyarko' Kaçar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "includes/head_imports_main.php"; ?>
 </head>
@@ -92,8 +92,7 @@ while ($getS_row = $getS->fetch(PDO::FETCH_ASSOC)) {
     }
 }
 ?>
-<a href="./u/<?php echo $_SESSION['Username']; ?>&ut=stars"><p class="<?php echo lang('HLP_b'); ?>"><img src="imgs/main_icons/1f4ab.png" /> <?php echo lang('see_all_notes'); ?></p></a>
-
+<a href="./u/<?php echo $_SESSION['Username']; ?>&ut=stars"><p class="<?php echo lang('HLP_b'); ?>"><img src="imgs/main_icons/1f4ab.png" /> <?php echo lang('show_all_stars'); ?></p></a>
 <p class="homeLinks_title"><?php echo lang('more'); ?></p>
 <a href="./posts/saved"><p class="<?php echo lang('HLP_b'); ?>"><img src="imgs/main_icons/1f516.png" /> <?php echo lang('saved_posts'); ?></p></a>
 <a href="page/supportbox"><p class="<?php echo lang('HLP_b'); ?>"><img src="imgs/main_icons/1f4e5.png" /> <?php echo lang('supportBox'); ?></p></a>

@@ -22,11 +22,11 @@ if (is_dir("imgs/")) {
 ?>
 <html dir="<?php echo lang('html_dir'); ?>">
 <head>
-    <title><?php echo $row_username; ?> | Wallstant</title>
+    <title><?php echo $row_username; ?> | Vice Social</title>
     <meta charset="UTF-8">
     <meta name="description" content="<?php echo $row_bio; ?>">
-    <meta name="keywords" content="social network,social media,Wallstant,meet,free platform">
-    <meta name="author" content="Munaf Aqeel Mahdi">
+    <meta name="keywords" content="vice city,vice roleplay,samp,Vice Social,sosyal,roleplay,gta,gta san andreas">
+    <meta name="author" content="Batuhan 'Nyarko' Kaçar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "../includes/head_imports_main.php";?>
     </script>

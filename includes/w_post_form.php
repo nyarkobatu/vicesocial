@@ -77,7 +77,7 @@ if (is_dir("imgs/")) {
     <button class="wpost_tablinks" onclick="wpost_tabs(event, 'w_title')"><span style="color: #ffb300;margin: 0px 5px;" class="fa fa-quote-right"></span> <?php echo lang('wpost_title'); ?></button>
     </li>
     <li style="float:<?php echo lang('w_post_li2'); ?>;">
-    <input class="default_flat_btn" type="submit" name="post_now" value="<?php echo lang('post_now'); ?>" style="margin: 5px;padding: 8px 10px;" />
+    <input class="default_flat_btn" type="submit" name="post_now" value="<?php echo lang('post_now'); ?>" style="background-color: #1F73E1;margin: 5px;padding: 8px 10px;" />
     </li>
     <li style="float:<?php echo lang('w_post_li2'); ?>;">
         <select id="p_privacy" style="margin: 5px; padding: 0px 10px; max-width: 110px; height: 35px;" name="w_privacy">

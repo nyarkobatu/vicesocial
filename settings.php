@@ -232,9 +232,9 @@ if (!password_verify($remeveA_current_pass_var,$_SESSION['Password'])) {
 <head>
     <title>Hesap Ayarları | Vice Social</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
-    <meta name="keywords" content="settings,social network,social media,Wallstant,meet,free platform">
-    <meta name="author" content="Munaf Aqeel Mahdi">
+    <meta name="description" content="Vice Social, GTA San Andreas oyunun çok oyunculu SAMP modülünde hizmet veren Vice Roleplay isimli roleplay sunucusunun oyun içi sosyal medya platformudur. Tüm karakterler hayal ürünüdür.">
+    <meta name="keywords" content="vice city,vice roleplay,samp,Vice Social,sosyal,roleplay,gta,gta san andreas">
+    <meta name="author" content="Batuhan 'Nyarko' Kaçar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <?php include "includes/head_imports_main.php";?>
 </head>
@@ -283,7 +283,7 @@ if (!password_verify($remeveA_current_pass_var,$_SESSION['Password'])) {
     <input dir="auto" class="settings_textfield" type="text" name="edit_school" value="<?php echo $_SESSION['school']; ?>" /></p>
     <p>
     <p class="settings_fieldTitle"><?php echo lang('work'); ?></p>
-    <input dir="auto" class="settings_textfield" type="text" name="edit_work0" placeholder="<?php echo lang('work_title'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work0']; ?>" /><span class="settings_tf_mergeSpan"><?php echo lang('at'); ?></span><input dir="auto" class="settings_textfield" type="text" name="edit_work" placeholder="<?php echo lang('work_place'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work']; ?>" /></p>
+    <input dir="auto" class="settings_textfield" type="text" name="edit_work0" placeholder="<?php echo lang('work_title'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work0']; ?>" /><span class="settings_tf_mergeSpan">/</span><input dir="auto" class="settings_textfield" type="text" name="edit_work" placeholder="<?php echo lang('work_place'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work']; ?>" /></p>
     <p>
     <p class="settings_fieldTitle"><?php echo lang('country'); ?></p>
     <select  class="settings_textfield" name="edit_country">
@@ -349,9 +349,8 @@ if (!password_verify($remeveA_current_pass_var,$_SESSION['Password'])) {
     <form action="" method="post">
         <p>
         <select class="settings_textfield" name="edit_language">
-			<option <?php if($_SESSION['language'] == "turkish"){ echo "selected";} ?> >Türkçe</option>
+			<option <?php if($_SESSION['language'] == "Turkish"){ echo "selected";} ?> >Türkçe</option>
             <option <?php if($_SESSION['language'] == "English"){ echo "selected";} ?> >English</option>
-        <option <?php if($_SESSION['language'] == "العربية"){ echo "selected";} ?> >العربية</option>
         </select>
         </p>
         <div style="background: #e9ebee; border-radius: 3px; padding: 15px;">
