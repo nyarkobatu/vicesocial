@@ -162,7 +162,7 @@ function lang($txt){
     'newLine_Shift_enter' => 'Yeni satır &xrarr;',
     'totalPhotos' => 'Toplam fotoğraf',
     'see_all' => 'Hepsini gör',
-    'likeNotify_str' => 'fotoğrafını beğendi',
+    'likeNotify_str' => 'paylaşımını beğendi',
     'commmentNotify_str' => 'paylaşımına yorum yaptı',
     'shareNotify_str' => 'paylaşımını paylaştı',
     'starNotify_str' => 'Sana hayran oluyor:',
