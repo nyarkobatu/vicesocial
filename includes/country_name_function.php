@@ -1,5 +1,6 @@
 <?php
 $countries = array(
+    "US" => "Amerika Birleşik Devletleri",
     "AF" => "Afghanistan",
     "AX" => "Åland Islands",
     "AL" => "Albania",
@@ -230,7 +231,6 @@ $countries = array(
     "UA" => "Ukraine",
     "AE" => "United Arab Emirates",
     "GB" => "United Kingdom",
-    "US" => "Amerika Birleşik Devletleri",
     "UM" => "United States Minor Outlying Islands",
     "UY" => "Uruguay",
     "UZ" => "Uzbekistan",
