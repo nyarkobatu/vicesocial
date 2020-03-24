@@ -283,12 +283,12 @@ if (!password_verify($remeveA_current_pass_var,$_SESSION['Password'])) {
     <input dir="auto" class="settings_textfield" type="text" name="edit_school" value="<?php echo $_SESSION['school']; ?>" /></p>
     <p>
     <p class="settings_fieldTitle"><?php echo lang('work'); ?></p>
-    <input dir="auto" class="settings_textfield" type="text" name="edit_work0" placeholder="<?php echo lang('work_title'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work0']; ?>" /><span class="settings_tf_mergeSpan">/</span><input dir="auto" class="settings_textfield" type="text" name="edit_work" placeholder="<?php echo lang('work_place'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work']; ?>" /></p>
+    <input dir="auto" class="settings_textfield" type="text" name="edit_work0" placeholder="<?php echo lang('work_place'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work0']; ?>" /><span class="settings_tf_mergeSpan">/</span><input dir="auto" class="settings_textfield" type="text" name="edit_work" placeholder="<?php echo lang('work_title'); ?>" style="width: 140px;" value="<?php echo $_SESSION['work']; ?>" /></p>
     <p>
     <p class="settings_fieldTitle"><?php echo lang('country'); ?></p>
     <select  class="settings_textfield" name="edit_country">
         <option selected disabled hidden><?php
-        if (!empty($_SESSION['country'])) {echo $_SESSION['country'];}else{echo "Select your country";}?></option>
+        if (!empty($_SESSION['country'])) {echo $_SESSION['country'];}else{echo "Konumunuzu seçin";}?></option>
         <?php foreach($countries as $key => $value) { ?>
         <option <?php if($_SESSION['country'] == "$value"){ echo "selected";} ?> value="<?= htmlspecialchars($value) ?>" title="<?= $key ?>"><?= htmlspecialchars($value) ?></option>
         <?php } ?>
